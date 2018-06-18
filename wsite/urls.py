@@ -19,4 +19,6 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.index),
+    url(r'^receber_dados/$', views.receber_dados),
+
 ]
