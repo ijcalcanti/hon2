@@ -20,4 +20,4 @@ data={
 
 
 exibir(data)
-resposta=requests.post('http://127.0.0.1:8000/receber_dados/',data=data)
+resposta=requests.post('http://127.0.0.1:8000/receber_dados/',data=data,)

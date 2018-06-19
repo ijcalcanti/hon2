@@ -16,8 +16,8 @@ def index(request):
 #System views
 @csrf_exempt
 def receber_dados(request):
-    identificador_recebido=request.body.decode('utf-8')
+    identificador_recebido=request.body
     print(identificador_recebido)
-    print(request.POST['descri'])
+    print(request.POST['local'])
 
     return HttpResponse("0")
